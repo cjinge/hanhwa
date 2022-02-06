@@ -20,7 +20,7 @@ article{}
 /* #cont1 */
 #cont1{padding: 100px 0; color: #555;}
 #cont1 .wrap{width: 1200px; padding: 0 10px; margin: 0 auto;}
-#cont1 .wrap > .title{background-image: url(../img/careers/border.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px; font-family:'Nanum Gothic', sans-serif;}
+#cont1 .wrap > .title{background-image: url(../img/careers/border.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px;}
 
 #cont1 .wrap .content{margin-left: -10px; margin-right: -10px; padding-top: 80px; display: flex;}
 #cont1 .wrap .content .box{width: calc(100% / 3 - 20px); margin: 0 10px;}
@@ -34,7 +34,7 @@ article{}
 #cont1 .wrap .content .box .text{padding-top: 40px;}
 #cont1 .wrap .content .box .text p{font-family:'Nanum Gothic', sans-serif;}
 #cont1 .wrap .content .box .text p:nth-child(1){font-size: 16px; padding-bottom: 20px; line-height: 1.6; font-weight: 600;}
-#cont1 .wrap .content .box .text p:nth-child(2){font-size: 14px; line-height: 1.8;}
+#cont1 .wrap .content .box .text p:nth-child(2){font-size: 14px; line-height: 1.6;}
 
 
 /* #cont2 */
@@ -53,8 +53,8 @@ article{}
 #cont3 .wrap{width: 1200px; padding: 0 10px; margin: 0 auto;}
 #cont3 .wrap .title{background-image: url(../img/careers/border.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px;}
 
-#cont3 .wrap .sub{padding-top: 20px; font-size: 20px;}
-#cont3 .wrap p{padding: 30px 0; font-size: 14px;}
+#cont3 .wrap .sub{padding-top: 20px; font-size: 20px;line-height: 1.6;}
+#cont3 .wrap p{padding: 30px 0; font-size: 14px;line-height: 1.6;}
 
 #cont3 .wrap .content{margin-left: -10px; margin-right: -10px;}
 #cont3 .wrap .content .top_cont{width: 100%; margin: 0 10px; display: flex;}
@@ -91,6 +91,25 @@ article{}
     #cont3 .wrap .content .top_cont .box .image p{font-size: 14px;}
     #cont3 .wrap .content .top_cont .box .image .icon img{width: 60px; height: 60px;}
 
-@media (max-width:767px){
 
+@media (max-width:767px){
+    #cont1{padding: 50px 0 60px; color: #555;}
+    #cont1 .wrap > .title{font-size: 20px;}
+    #cont1 .wrap .content{margin-left: 0; margin-right: 0; padding-top: 40px; flex-direction: column;}
+
+    #cont1 .wrap .content .box{width: 100%; margin: 0 10px; padding: 20px 0;}
+    #cont1 .wrap .content .box .image{width: 140px; height: 140px;}
+    #cont1 .wrap .content .box .title .eng{font-size: 14px;}
+    #cont1 .wrap .content .box .text p:nth-child(1){height: auto;}
+
+    #cont2 .bg_image{height: auto; padding: 80px 0;}
+    #cont2 .bg_image .wrap{flex-direction: column;}
+    #cont2 .bg_image .wrap .txt{width: 100%;}
+    #cont2 .bg_image .wrap .image{position: static;padding-top: 260px;}
+
+/* html 구성 수정하고 변경하기.. */
+    #cont3 .wrap .content{margin-left: -10px; margin-right: -10px;}
+    #cont3 .wrap .content .top_cont{flex-direction: column; margin: 0 10px; }
+    #cont3 .wrap .content .top_cont .box{width: 100%; margin: 0 10px;}
+    #cont3 .wrap .content .top_cont .box{height: 195px;}
 }

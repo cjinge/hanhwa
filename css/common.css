@@ -16,23 +16,19 @@ a, a:hover{text-decoration: none;}
 .play{font-family: 'Play', sans-serif;}
 
 /* + 반응형..
-careers 1023 767
-
+1. 헤더 햄버거 메뉴, (슬라이드 밑 아이콘 수정하긴했음..)
+2. 푸터 패밀리 사이트 구성하기
+3. 1careers 1023 767 - 하는중.. 하단 메뉴쪽 수정
+4. 1024px 쯤 li 오류 수정
+5. index 메인 슬라이드 하단 버튼 위치 수정
 
 완료
 index 1023, 767(***cont4 박스 수정.. )
 company 1023 767
-
 pr center 1023 767
-
 customer 1023 767
-헤더 햄버거 메뉴, (슬라이드 밑 아이콘 수정하긴했음..)
 
-푸터 패밀리 사이트 구성하기
 
-careers 마지막 메뉴 만들기
-
-main 배너 a 태그 글자색, 굵기 수정
 */
 
 
@@ -55,10 +51,10 @@ main 배너 a 태그 글자색, 굵기 수정
 
 /* 햄버거 메뉴 만들기.. */
 /* header */
-#header{width: 100%; height: 90px; background-color: #fff; z-index: 9; -webkit-sticky; position: sticky; top: 0; border-bottom: 1px solid #eee; font-family: 'Play', sans-serif;}
+#header{width: 100%; height: 90px; background-color: #fff; z-index: 9; -webkit-sticky; position: sticky; top: 0; /*border-bottom: 2px solid rgba(0,0,0,0.2);*/ box-shadow: 1px 1px 2px rgba(0,0,0,0.2); font-family: 'Play', sans-serif;}
 #header .wrap{width: 1200px; height: 100%; padding: 0 10px; margin: 0 auto; background-color: #fff; display: flex; justify-content: space-between;}
 
-#header .wrap .logo{width: 180px; height: 100%;}
+#header .wrap .logo{width: 170px; height: 100%;}
 #header .wrap .logo a{display: block; padding: 18px 0;}
 #header .wrap .logo a img{display: block; height: 54px;}
 
@@ -68,7 +64,7 @@ main 배너 a 태그 글자색, 굵기 수정
 #header .wrap .menu > ul > li:hover{background-color: #eee;}
 #header .wrap .menu > ul > li:hover:after{content: ""; display: block; background-color: #f47321; position: absolute; top: 0; width: 100%; height: 6px;}
 
-#header .wrap .menu > ul > li > a{display: inline-block; font-size: 14px; line-height: 18px; color: #000; padding: 36px 32px; font-weight:500;}
+#header .wrap .menu > ul > li > a{display: inline-block; font-size: 14px; line-height: 18px; color: #000; padding: 36px 30px; font-weight:500;}
 #header .wrap .menu > ul > li > a:hover{color: #f47321;}
 
 #header .wrap .menu > ul > li > ul{display: flex; flex-direction: column; background-color: #eee;}
@@ -78,7 +74,7 @@ main 배너 a 태그 글자색, 굵기 수정
 #header .wrap .menu > ul > li > ul > li > a{display: inline-block; font-size: 13px; line-height: 1; color: #555;}
 #header .wrap .menu > ul > li > ul > li > a:hover{color: #f47321;}
 
-#header .wrap .right{display: flex; justify-content:flex-end; align-items: center; width: 180px; height: 100%;}
+#header .wrap .right{display: flex; justify-content:flex-end; align-items: center; width: 170px; height: 100%;}
 #header .wrap .right .lang_btn{font-size: 0;}
 #header .wrap .right .lang_btn a{display: inline-block; background-size: cover; background-repeat: no-repeat; width: 30px; height: 30px;}
 #header .wrap .right .lang_btn a.kor{background-image: url(../img/kor_btn.png); margin-right: 10px; background-position: 0 50%;}
