@@ -1,0 +1,96 @@
+/* careers.css */
+@charset "utf-8";
+
+/* #main{width: 100%;} */
+#main .main_bg{background-image: url(../img/careers/bg.jpg); background-size: auto; background-position: 50% 89%;}
+
+@media (max-width:1023px){
+
+}
+
+@media (max-width:767px){
+
+}
+
+
+
+section{}
+article{}
+
+/* #cont1 */
+#cont1{padding: 100px 0; color: #555;}
+#cont1 .wrap{width: 1200px; padding: 0 10px; margin: 0 auto;}
+#cont1 .wrap > .title{background-image: url(../img/careers/border.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px; font-family:'Nanum Gothic', sans-serif;}
+
+#cont1 .wrap .content{margin-left: -10px; margin-right: -10px; padding-top: 80px; display: flex;}
+#cont1 .wrap .content .box{width: calc(100% / 3 - 20px); margin: 0 10px;}
+#cont1 .wrap .content .box .image{width: 189px; height: 189px; background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; margin: 0 auto;}
+/* 이미지 padding 값 왜 조정 안됨??? */
+
+#cont1 .wrap .content .box .title{text-align: center;}
+#cont1 .wrap .content .box .title .eng{padding: 40px 0 8px;}
+#cont1 .wrap .content .box .title h6{color: #f47321; font-size: 26px; font-family:'Nanum Gothic', sans-serif;}
+
+#cont1 .wrap .content .box .text{padding-top: 40px;}
+#cont1 .wrap .content .box .text p{font-family:'Nanum Gothic', sans-serif;}
+#cont1 .wrap .content .box .text p:nth-child(1){font-size: 16px; padding-bottom: 20px; line-height: 1.6; font-weight: 600;}
+#cont1 .wrap .content .box .text p:nth-child(2){font-size: 14px; line-height: 1.8;}
+
+
+/* #cont2 */
+#cont2{}
+#cont2 .bg_image{width: 100%; padding: 60px 0; height: 500px; background-image: url(../img/careers/bg2.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat;}
+#cont2 .bg_image .wrap{width: 1200px; height: 100%; padding: 0 10px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;}
+#cont2 .bg_image .wrap .txt{color: #fff; width: 680px;}
+#cont2 .bg_image .wrap .txt h6{font-size: 23px; font-weight: 500; background-image: url(../img/careers/border.png); background-size: 54px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 30px; line-height: 1.6; word-break: break-all;}
+#cont2 .bg_image .wrap .txt p{font-size: 14px; padding-top: 20px; line-height: 1.6;}
+
+#cont2 .bg_image .wrap .image{background-image: url(../img/careers/img.png); background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; width: 400px; height: 100%;}
+
+
+/* #cont3 */
+#cont3{padding: 100px 0; color: #555;}
+#cont3 .wrap{width: 1200px; padding: 0 10px; margin: 0 auto;}
+#cont3 .wrap .title{background-image: url(../img/careers/border.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px;}
+
+#cont3 .wrap .sub{padding-top: 20px; font-size: 20px;}
+#cont3 .wrap p{padding: 30px 0; font-size: 14px;}
+
+#cont3 .wrap .content{margin-left: -10px; margin-right: -10px;}
+#cont3 .wrap .content .top_cont{width: 100%; margin: 0 10px; display: flex;}
+#cont3 .wrap .content .top_cont .box{width: calc(100% / 3 - 20px); margin: 0 10px;}
+#cont3 .wrap .content .top_cont .box .image{width: 100%; height: auto; background-size: contain; background-position: 50% 50%; background-repeat: no-repeat; padding-top:30px;}
+#cont3 .wrap .content .top_cont .box .image .icon{width: 100%; text-align: center; font-size: 0;}
+#cont3 .wrap .content .top_cont .box .image .icon img{display: inline-block;}
+
+#cont3 .wrap .content .top_cont .box .image p{color: #fff; text-align: center; font-size: 20px; font-weight: 600;}
+
+
+#cont3 .wrap .content .bottom_menu{font-size: 14px; color: #555; }
+#cont3 .wrap .content .bottom_menu > ul{}
+#cont3 .wrap .content .bottom_menu > ul > li{padding: 20px 0; display: block; color: #555; border-bottom: 1px solid #f47321; line-height: 14px;}
+#cont3 .wrap .content .bottom_menu > ul > li > ul{background-color: #f4f4f4;}
+#cont3 .wrap .content .bottom_menu > ul > li > ul > li{}
+
+
+@media (max-width:1023px){
+    #cont1{padding: 50px 0 100px; color: #555;}
+    #cont1 .wrap{width: 90%; padding: 0;}
+    #cont1 .wrap .content .box .text p:nth-child(1){height: 100px;}
+
+    #cont2 .bg_image .wrap{width: 90%; padding: 0;}
+    #cont2 .bg_image .wrap .txt{color: #fff; width: calc(100% - 280px);}
+    #cont2 .bg_image .wrap .image{width:260px;}
+
+    #cont3{padding: 80px 0 100px;}
+    #cont3 .wrap{width: 90%; padding: 0;}
+
+    #cont3 .wrap .content .top_cont{ margin: 0; display: flex;}
+    #cont3 .wrap .content .top_cont .box{width: 32%; margin: 0 1%;}
+    #cont3 .wrap .content .top_cont .box .image{padding: 0;background-size: cover;}
+    #cont3 .wrap .content .top_cont .box .image p{font-size: 14px;}
+    #cont3 .wrap .content .top_cont .box .image .icon img{width: 60px; height: 60px;}
+
+@media (max-width:767px){
+
+}

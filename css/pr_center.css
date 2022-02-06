@@ -1,0 +1,80 @@
+/* company.css */
+@charset "utf-8";
+
+/* #main{width: 100%;} */
+#main .main_bg{background-image: url(../img/prcenter/bg.jpg); background-size: auto; background-position: 50% 100%;}
+
+@media (max-width:1023px){
+
+}
+
+@media (max-width:767px){
+
+}
+
+
+section{}
+article{}
+
+#cont1{}
+#cont1 .wrap{width: 1200px; height: 100%; padding: 100px 10px 120px; margin: 0 auto; display: flex; align-items: center;}
+#cont1 .wrap .text{color: #555; width: calc(70%);}
+#cont1 .wrap .text h5{font-size: 30px; padding-bottom: 40px; background-image: url(../img/prcenter/border.png); background-size: 50px 3px; background-position: 0% 100%; background-repeat: no-repeat; line-height: 50px; word-break: keep-all; font-family:'Nanum Gothic', sans-serif;}
+#cont1 .wrap .text p{font-size: 14px; padding-top: 40px; line-height: 1.6; font-family:'Nanum Gothic', sans-serif;}
+
+#cont1 .wrap .logo_img{width: calc(30%); height: 100%; text-align: center; font-size: 0;}
+#cont1 .wrap .logo_img img{display: inline-block;}
+
+#cont2{height: auto;}
+#cont2 .bg_image{background-image: url(../img/prcenter/bg2.jpg); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; width: 100%; height: 500px; }
+#cont2 .bg_image .wrap{width: 1200px; height: 100%; padding: 0 10px; margin: 0 auto; position: relative; display: flex; justify-content: flex-end; align-items: center;}
+#cont2 .bg_image .wrap img{position: absolute; left: 0; top: -70px;}
+#cont2 .bg_image .wrap .text{width: calc(50%); color: #fff; text-align: center;}
+#cont2 .bg_image .wrap .text h6{font-size: 22px; font-family:'Nanum Gothic', sans-serif;}
+#cont2 .bg_image .wrap .text h5{color: #f47321; font-size: 40px; font-weight: 500; line-height: 64px;}
+#cont2 .bg_image .wrap .text p{font-size: 14px; line-height: 1.6; font-family:'Nanum Gothic', sans-serif;}
+
+
+#cont3{word-break: break-all;}
+#cont3 .wrap{width: 1200px; margin: 0 auto; padding: 0 10px;}
+#cont3 .wrap .content{padding: 120px 0; margin-left: -10px; margin-right: -10px; display: flex;}
+#cont3 .wrap .content .box{margin: 0 10px; width: calc(100% / 3 - 20px); color: #555;}
+#cont3 .wrap .content .box h6{background-image: url(../img/prcenter/border_orange.png); background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px; font-family:'Nanum Gothic', sans-serif;}
+/* #cont2 .wrap .title{background-size: 36px 3px; background-position: 0% 100%; background-repeat: no-repeat; padding-bottom: 14px; font-size: 22px;} */
+#cont3 .wrap .content .box p{font-size: 14px; padding: 20px 0; line-height: 1.6; font-family:'Nanum Gothic', sans-serif;}
+#cont3 .wrap .content .box .image{background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; width: 100%; height: 225px; }
+
+
+@media (max-width:1023px){
+    #cont1 .wrap{width: 90%; padding: 100px 10px 120px; margin: 0 auto; flex-direction: column; align-items: start; position: relative;}
+    #cont1 .wrap .text{width: 100%;}
+    #cont1 .wrap .logo_img{width: auto; height: auto; position: absolute; right: 5%; top: 160px;}
+    #cont1 .wrap .logo_img img{width: 100px; height: auto; text-align: center; font-size: 0;}
+
+    #cont2 .bg_image{height: 600px;}
+    #cont2 .bg_image .wrap{width: 90%; padding: 0 0 60px; flex-direction: column; justify-content: flex-end; }
+    #cont2 .bg_image .wrap .text{width: 80%; color: #fff; text-align: center;}
+
+    #cont3 .wrap{width: 90%; padding: 0;}
+
+    #cont3 .wrap .content .box .image{background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; width: 100%; height: 180px;}
+
+}
+
+@media (max-width:767px){
+    #cont1 .wrap{padding: 70px 10px 80px;}
+    #cont1 .wrap .text h5{font-size: 24px; line-height: 1.6;}
+    #cont1 .wrap .logo_img{right: 50%; transform: translate(50%, -35%); top: 55%;  z-index: -2; opacity: 0.5;}
+    #cont1 .wrap .logo_img img{width: 200px;}
+
+    #cont2 .bg_image{height: 640px;}
+    #cont2 .bg_image .wrap{width: 90%; padding: 0 0 140px;}
+    #cont2 .bg_image .wrap img{width: 300px; height: auto; left: 50%; transform: translateX(-50%); top: -40px;}
+    #cont2 .bg_image .wrap .text{width: 100%;}
+    #cont2 .bg_image .wrap .text h5{line-height: 90px;}
+
+    #cont3 .wrap .content{padding: 40px 0 120px; margin-left: 0; margin-right: 0; flex-direction: column;}
+
+    #cont3 .wrap .content .box{margin: 0; width: 100%;}
+    #cont3 .wrap .content .box h6{padding: 40px 0 14px; font-size: 20px;}
+}
