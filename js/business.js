@@ -87,11 +87,11 @@ cont2_arr.forEach(function(v, i){
     <a href="">
         <li class="box_bg" style="background-image: url(../img/business/${v[2]});";>
             <div class="top">
-                <span>0${i+1}</span>
-                <p class="title">${v[0]}</p>
+                <span class="nanum">0${i+1}</span>
+                <p class="title nanum">${v[0]}</p>
             </div>
 
-            <p class="text">${v[1]}</p>
+            <p class="text nanum">${v[1]}</p>
         </li>
     </a>
     `;
