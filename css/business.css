@@ -98,7 +98,7 @@ article{}
 #cont2 .wrap .content ul a{width: calc(100% / 3 - 20px); display: block; color: #555; margin: 0 10px;}
 #cont2 .wrap .content ul a:nth-of-type(1),#cont2 .wrap .content ul a:nth-of-type(2),#cont2 .wrap .content ul a:nth-of-type(3){margin-bottom: 20px;}
 
-#cont2 .wrap .content ul a .box_bg{width: 100%; height: 300px; border: 1px solid #ccc; border-radius: 25px; background-image: url(../img/business/01_img.png); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; position: relative; text-align: center;}
+#cont2 .wrap .content ul a .box_bg{width: 100%; height: 300px; border: 1px solid #ccc; border-radius: 25px; /*background-image: url(../img/business/01_img.png);*/ background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; position: relative; text-align: center;}
 #cont2 .wrap .content ul a .box_bg .top{color: #f47321; width: 100%; padding: 20px; position: relative;}
 #cont2 .wrap .content ul a .box_bg .top:after{content: ""; display: block; clear: both; width: calc(100% - 40px); position: absolute; border-bottom: 1px solid #ccc; bottom: 0; left: 50%; transform: translateX(-50%);}
 
