@@ -85,7 +85,7 @@ var cont2_inner ="";
 cont2_arr.forEach(function(v, i){
     cont2_inner += `
     <a href="">
-        <li class="box_bg" style="background-image: url(../img/business/${v[2]});";>
+        <li class="box_bg" style="background-image: url(./img/business/${v[2]});";>
             <div class="top">
                 <span class="nanum">0${i+1}</span>
                 <p class="title nanum">${v[0]}</p>
